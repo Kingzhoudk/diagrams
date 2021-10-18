@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-18T03:13:52.110Z" agent="5.0 (X11)" etag="4mO9Y4Yw5nGS-8_E5d5A" version="15.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-18T03:42:22.310Z" agent="5.0 (X11)" etag="qDPCsU-JRuEaLNpHvdLh" version="15.5.4" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1125" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -26,7 +26,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FX_yhc1pr7L3NUCvsDV_-141" value="&lt;div&gt;增加选项是否将&lt;/div&gt;&lt;div&gt;Log保存至本地&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FX_yhc1pr7L3NUCvsDV_-139">
+        <mxCell id="FX_yhc1pr7L3NUCvsDV_-141" value="测试结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FX_yhc1pr7L3NUCvsDV_-139">
           <mxGeometry x="-0.119" y="-4" relative="1" as="geometry">
             <mxPoint x="12" as="offset" />
           </mxGeometry>
@@ -127,11 +127,23 @@
         <mxCell id="FX_yhc1pr7L3NUCvsDV_-143" value="仿真数据后端" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#d5e8d4;strokeColor=default;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="313" y="410" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FX_yhc1pr7L3NUCvsDV_-163" value="&lt;div align=&quot;center&quot;&gt;数据后端管理仿真Mysql数据库&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;功能如下：&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;1. 赋予自动化测试框架集群每一次请求唯一的task_id&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2. 管理自动测试框架提交的测试运行结果&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="510" y="240" width="229" height="110" as="geometry" />
+        <mxCell id="FX_yhc1pr7L3NUCvsDV_-163" value="&lt;div align=&quot;center&quot;&gt;仿真数据后端负责管理仿真Mysql数据库&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;功能如下：&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;1. 赋予自动化测试框架集群每一次请求唯一的task_id&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2. 管理自动测试框架提交的测试运行结果&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. 每天（周）将mysql数据备份至洛书平台&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;如果仿真数据后端失效：&lt;/div&gt;&lt;div&gt;task_id还是按照现有时间戳的方式生成&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="573" y="260" width="227" height="140" as="geometry" />
         </mxCell>
         <mxCell id="FX_yhc1pr7L3NUCvsDV_-165" value="前端数据展示" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="313" y="299.9999999999999" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FX_yhc1pr7L3NUCvsDV_-168" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="FX_yhc1pr7L3NUCvsDV_-143" target="FX_yhc1pr7L3NUCvsDV_-163">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="370" as="sourcePoint" />
+            <mxPoint x="490" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FX_yhc1pr7L3NUCvsDV_-169" value="Log存储：&lt;div align=&quot;left&quot;&gt;1. 按照不同测试结果的文件夹分别存储&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2. 管理自动测试框架提交的测试运行结果&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. 每天（周）将mysql数据备份至洛书平台&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;如果仿真数据后端失效：&lt;/div&gt;&lt;div&gt;task_id还是按照现有时间戳的方式生成&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="13" y="230" width="227" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
