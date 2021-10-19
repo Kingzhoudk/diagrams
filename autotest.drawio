@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-19T02:25:51.380Z" agent="5.0 (X11)" etag="HXOmUavClFwcff5lgfdM" version="15.5.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-19T02:53:12.915Z" agent="5.0 (X11)" etag="KIUypPMVjU39l79nWjW9" version="15.5.5" type="github" pages="2">
   <diagram name="架构" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="792" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1588" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -162,6 +162,129 @@
       <root>
         <mxCell id="xqcd4H1gL1RNRrl_MpNa-0" />
         <mxCell id="xqcd4H1gL1RNRrl_MpNa-1" parent="xqcd4H1gL1RNRrl_MpNa-0" />
+        <mxCell id="8mWA7OG3oaemWvRflyDh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="xqcd4H1gL1RNRrl_MpNa-1" source="8mWA7OG3oaemWvRflyDh-0" target="8mWA7OG3oaemWvRflyDh-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-0" value="初始化仿真测试用例&#xa;case_setup_description(&quot;case1_demo&quot;, &quot;ci&quot;)" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;rounded=1;" vertex="1" parent="xqcd4H1gL1RNRrl_MpNa-1">
+          <mxGeometry x="40" y="150" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="xqcd4H1gL1RNRrl_MpNa-1" source="8mWA7OG3oaemWvRflyDh-1" target="8mWA7OG3oaemWvRflyDh-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-1" value="初始化仿真器simulation_setup(&quot;reg.uisee.ai/sim:3.0&quot;, &quot;./config/sim_config.json&quot;)" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;rounded=1;" vertex="1" parent="xqcd4H1gL1RNRrl_MpNa-1">
+          <mxGeometry x="40" y="230" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="xqcd4H1gL1RNRrl_MpNa-1" source="8mWA7OG3oaemWvRflyDh-2" target="8mWA7OG3oaemWvRflyDh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-2" value="创建动态障碍物&#xa;simulation_create_dynamic_object()" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;rounded=1;" vertex="1" parent="xqcd4H1gL1RNRrl_MpNa-1">
+          <mxGeometry x="40" y="310" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="xqcd4H1gL1RNRrl_MpNa-1" source="8mWA7OG3oaemWvRflyDh-3" target="8mWA7OG3oaemWvRflyDh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-3" value="创建智能驾驶车辆simulation_create_ads_vehicle()" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;rounded=1;" vertex="1" parent="xqcd4H1gL1RNRrl_MpNa-1">
+          <mxGeometry x="40" y="390" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="xqcd4H1gL1RNRrl_MpNa-1" source="8mWA7OG3oaemWvRflyDh-4" target="8mWA7OG3oaemWvRflyDh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-4" value="初始化智能驾驶车辆&#xa;ads_setup()" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;rounded=1;" vertex="1" parent="xqcd4H1gL1RNRrl_MpNa-1">
+          <mxGeometry x="40" y="470" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="xqcd4H1gL1RNRrl_MpNa-1" source="8mWA7OG3oaemWvRflyDh-9" target="8mWA7OG3oaemWvRflyDh-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-9" value="选择智能驾驶车辆的目的地ads_select_target_location()" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;rounded=1;" vertex="1" parent="xqcd4H1gL1RNRrl_MpNa-1">
+          <mxGeometry x="40" y="550" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="xqcd4H1gL1RNRrl_MpNa-1" source="8mWA7OG3oaemWvRflyDh-10" target="8mWA7OG3oaemWvRflyDh-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="655" />
+              <mxPoint x="360" y="185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-10" value="启动智能驾驶车辆&#xa;ads_resume()" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;rounded=1;" vertex="1" parent="xqcd4H1gL1RNRrl_MpNa-1">
+          <mxGeometry x="40" y="630" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="xqcd4H1gL1RNRrl_MpNa-1" source="8mWA7OG3oaemWvRflyDh-18" target="8mWA7OG3oaemWvRflyDh-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="488" y="240" as="sourcePoint" />
+            <mxPoint x="535" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-20" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8mWA7OG3oaemWvRflyDh-16">
+          <mxGeometry x="-0.441" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="xqcd4H1gL1RNRrl_MpNa-1" source="8mWA7OG3oaemWvRflyDh-28" target="8mWA7OG3oaemWvRflyDh-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="330" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-21" value="&lt;div&gt;否&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="xqcd4H1gL1RNRrl_MpNa-1" source="8mWA7OG3oaemWvRflyDh-18" target="8mWA7OG3oaemWvRflyDh-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-18" value="&lt;div&gt;&lt;b&gt;如果智能驾驶车辆行驶&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;到动态障碍物旁边&lt;/b&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="xqcd4H1gL1RNRrl_MpNa-1">
+          <mxGeometry x="390" y="140" width="196" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-32" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;" edge="1" parent="xqcd4H1gL1RNRrl_MpNa-1" source="8mWA7OG3oaemWvRflyDh-26" target="8mWA7OG3oaemWvRflyDh-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-33" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="xqcd4H1gL1RNRrl_MpNa-1" source="8mWA7OG3oaemWvRflyDh-26" target="8mWA7OG3oaemWvRflyDh-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-26" value="如果动态障碍物在智能驾驶车辆前方" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="xqcd4H1gL1RNRrl_MpNa-1">
+          <mxGeometry x="386.87" y="360" width="281.25" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-28" value="动态障碍物大于智能驾驶车辆的速度向前行驶&#xa;simulation_dynamic_object_move()" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;rounded=1;" vertex="1" parent="xqcd4H1gL1RNRrl_MpNa-1">
+          <mxGeometry x="394.99" y="280" width="265.01" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-29" value="本次测试结束，结果设为FAIL&lt;br&gt;case_set_result_and_terminate(Result.FAIL, &quot;FAIL&quot;)" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;strokeColor=#000000;strokeWidth=3;fillColor=#fff2cc;" vertex="1" parent="xqcd4H1gL1RNRrl_MpNa-1">
+          <mxGeometry x="620" y="157.5" width="310" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;" edge="1" parent="xqcd4H1gL1RNRrl_MpNa-1" source="8mWA7OG3oaemWvRflyDh-31" target="8mWA7OG3oaemWvRflyDh-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="527" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-31" value="动态障碍物加塞进入智能驾驶车辆的车道&#xa;simulation_dynamic_object_move()" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;rounded=1;" vertex="1" parent="xqcd4H1gL1RNRrl_MpNa-1">
+          <mxGeometry x="394.99" y="470" width="265.01" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-39" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="xqcd4H1gL1RNRrl_MpNa-1" source="8mWA7OG3oaemWvRflyDh-35" target="8mWA7OG3oaemWvRflyDh-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-40" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="xqcd4H1gL1RNRrl_MpNa-1" source="8mWA7OG3oaemWvRflyDh-35" target="8mWA7OG3oaemWvRflyDh-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="527.4949999999999" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-35" value="是否发生碰撞" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="xqcd4H1gL1RNRrl_MpNa-1">
+          <mxGeometry x="386.87" y="550" width="281.25" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-44" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="xqcd4H1gL1RNRrl_MpNa-1" source="8mWA7OG3oaemWvRflyDh-38" target="8mWA7OG3oaemWvRflyDh-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-46" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="xqcd4H1gL1RNRrl_MpNa-1" source="8mWA7OG3oaemWvRflyDh-38" target="8mWA7OG3oaemWvRflyDh-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-38" value="如果测试运行超过600秒" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="xqcd4H1gL1RNRrl_MpNa-1">
+          <mxGeometry x="710" y="550" width="281.25" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-41" value="本次测试结束，结果设为FAIL&lt;br&gt;case_set_result_and_terminate(Result.FAIL, &quot;collision&quot;)" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;strokeColor=#000000;strokeWidth=3;fillColor=#fff2cc;" vertex="1" parent="xqcd4H1gL1RNRrl_MpNa-1">
+          <mxGeometry x="364.37" y="650" width="326.26" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-43" value="本次测试结束，结果设为FAIL&lt;br&gt;case_set_result_and_terminate(Result.FAIL, &quot;timeout&quot;)" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;strokeColor=#000000;strokeWidth=3;fillColor=#fff2cc;" vertex="1" parent="xqcd4H1gL1RNRrl_MpNa-1">
+          <mxGeometry x="689.84" y="460" width="321.56" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8mWA7OG3oaemWvRflyDh-45" value="本次测试结束，结果设为PASS&lt;br&gt;case_set_result_and_terminate(Result.PASS)" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;strokeColor=#000000;strokeWidth=3;fillColor=#fff2cc;" vertex="1" parent="xqcd4H1gL1RNRrl_MpNa-1">
+          <mxGeometry x="715.63" y="650" width="270" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
