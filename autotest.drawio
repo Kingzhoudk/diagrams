@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-18T19:24:06.933Z" agent="5.0 (Windows)" etag="NQh8HeQNXPXlce429Bjo" version="15.5.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-18T19:27:10.701Z" agent="5.0 (Windows)" etag="obYHFGfESMSRCtXgahj1" version="15.5.2" type="github" pages="3">
   <diagram name="架构" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="981" dy="519" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -289,7 +289,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bk42PpeumQv-gdNFnSot" name="case2">
-    <mxGraphModel dx="1422" dy="752" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="752" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="atYt0wW3PkCav8Yv20VC-0" />
         <mxCell id="atYt0wW3PkCav8Yv20VC-1" parent="atYt0wW3PkCav8Yv20VC-0" />
@@ -297,53 +297,53 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1LzykaaKOIrvUKO_Y8IM-1" value="初始化仿真测试用例&#xa;case_setup_description(&quot;case2_demo&quot;, &quot;ci&quot;)" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;rounded=1;" vertex="1" parent="atYt0wW3PkCav8Yv20VC-1">
-          <mxGeometry x="220" y="220" width="270" height="50" as="geometry" />
+          <mxGeometry x="139" y="211" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1LzykaaKOIrvUKO_Y8IM-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="1LzykaaKOIrvUKO_Y8IM-3" target="1LzykaaKOIrvUKO_Y8IM-5" parent="atYt0wW3PkCav8Yv20VC-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1LzykaaKOIrvUKO_Y8IM-3" value="初始化仿真器simulation_setup(&quot;reg.uisee.ai/sim:3.0&quot;, &quot;./config/sim_config.json&quot;)" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;rounded=1;" vertex="1" parent="atYt0wW3PkCav8Yv20VC-1">
-          <mxGeometry x="220" y="300" width="270" height="50" as="geometry" />
+          <mxGeometry x="139" y="291" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1LzykaaKOIrvUKO_Y8IM-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="1LzykaaKOIrvUKO_Y8IM-5" target="1LzykaaKOIrvUKO_Y8IM-7" parent="atYt0wW3PkCav8Yv20VC-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1LzykaaKOIrvUKO_Y8IM-5" value="初始化云端服务&#xa;cloud_setup_service()" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;rounded=1;" vertex="1" parent="atYt0wW3PkCav8Yv20VC-1">
-          <mxGeometry x="220" y="380" width="270" height="50" as="geometry" />
+          <mxGeometry x="139" y="371" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1LzykaaKOIrvUKO_Y8IM-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="1LzykaaKOIrvUKO_Y8IM-7" target="1LzykaaKOIrvUKO_Y8IM-9" parent="atYt0wW3PkCav8Yv20VC-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1LzykaaKOIrvUKO_Y8IM-7" value="创建智能驾驶车辆simulation_create_ads_vehicle()" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;rounded=1;" vertex="1" parent="atYt0wW3PkCav8Yv20VC-1">
-          <mxGeometry x="220" y="460" width="270" height="50" as="geometry" />
+          <mxGeometry x="139" y="451" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1LzykaaKOIrvUKO_Y8IM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="1LzykaaKOIrvUKO_Y8IM-9" target="1LzykaaKOIrvUKO_Y8IM-11" parent="atYt0wW3PkCav8Yv20VC-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1LzykaaKOIrvUKO_Y8IM-9" value="初始化智能驾驶车辆&#xa;ads_setup()" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;rounded=1;" vertex="1" parent="atYt0wW3PkCav8Yv20VC-1">
-          <mxGeometry x="220" y="540" width="270" height="50" as="geometry" />
+          <mxGeometry x="139" y="531" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1LzykaaKOIrvUKO_Y8IM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="1LzykaaKOIrvUKO_Y8IM-11" target="1LzykaaKOIrvUKO_Y8IM-13" parent="atYt0wW3PkCav8Yv20VC-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1LzykaaKOIrvUKO_Y8IM-11" value="选择智能驾驶车辆的目的地ads_select_target_location()" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;rounded=1;" vertex="1" parent="atYt0wW3PkCav8Yv20VC-1">
-          <mxGeometry x="220" y="620" width="270" height="50" as="geometry" />
+          <mxGeometry x="139" y="611" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1LzykaaKOIrvUKO_Y8IM-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="1LzykaaKOIrvUKO_Y8IM-13" target="1LzykaaKOIrvUKO_Y8IM-18" parent="atYt0wW3PkCav8Yv20VC-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="520" y="725" />
-              <mxPoint x="520" y="235" />
+              <mxPoint x="439" y="716" />
+              <mxPoint x="439" y="226" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="1LzykaaKOIrvUKO_Y8IM-13" value="启动智能驾驶车辆&#xa;ads_resume()" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;rounded=1;" vertex="1" parent="atYt0wW3PkCav8Yv20VC-1">
-          <mxGeometry x="220" y="700" width="270" height="50" as="geometry" />
+          <mxGeometry x="139" y="691" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1LzykaaKOIrvUKO_Y8IM-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="1LzykaaKOIrvUKO_Y8IM-18" target="1LzykaaKOIrvUKO_Y8IM-22" parent="atYt0wW3PkCav8Yv20VC-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="668" y="290" as="sourcePoint" />
-            <mxPoint x="715" y="320" as="targetPoint" />
+            <mxPoint x="587" y="281" as="sourcePoint" />
+            <mxPoint x="634" y="311" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1LzykaaKOIrvUKO_Y8IM-15" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1LzykaaKOIrvUKO_Y8IM-14">
@@ -353,56 +353,56 @@
         </mxCell>
         <mxCell id="1LzykaaKOIrvUKO_Y8IM-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="1LzykaaKOIrvUKO_Y8IM-22" target="1LzykaaKOIrvUKO_Y8IM-21" parent="atYt0wW3PkCav8Yv20VC-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="715" y="380" as="sourcePoint" />
+            <mxPoint x="634" y="371" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1LzykaaKOIrvUKO_Y8IM-17" value="&lt;div&gt;否&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="1LzykaaKOIrvUKO_Y8IM-18" target="1LzykaaKOIrvUKO_Y8IM-23" parent="atYt0wW3PkCav8Yv20VC-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="820" y="235" as="targetPoint" />
+            <mxPoint x="739" y="226" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1LzykaaKOIrvUKO_Y8IM-18" value="&lt;div&gt;&lt;b&gt;如果智能驾驶车辆&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;行驶到A点&lt;/b&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="atYt0wW3PkCav8Yv20VC-1">
-          <mxGeometry x="600" y="190" width="196" height="90" as="geometry" />
+          <mxGeometry x="519" y="181" width="196" height="90" as="geometry" />
         </mxCell>
         <mxCell id="1LzykaaKOIrvUKO_Y8IM-19" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;" edge="1" source="1LzykaaKOIrvUKO_Y8IM-21" target="1LzykaaKOIrvUKO_Y8IM-28" parent="atYt0wW3PkCav8Yv20VC-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="707.4949999999999" y="520" as="targetPoint" />
+            <mxPoint x="626.4949999999999" y="511" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1LzykaaKOIrvUKO_Y8IM-21" value="当智能驾驶车辆速度将为0时" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="atYt0wW3PkCav8Yv20VC-1">
-          <mxGeometry x="557.37" y="420" width="281.25" height="70" as="geometry" />
+          <mxGeometry x="476.37" y="411" width="281.25" height="70" as="geometry" />
         </mxCell>
         <mxCell id="1LzykaaKOIrvUKO_Y8IM-22" value="智能驾驶车辆断开网络&#xa;ads_disconnect_cloud()" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;rounded=1;" vertex="1" parent="atYt0wW3PkCav8Yv20VC-1">
-          <mxGeometry x="565.5" y="330" width="265.01" height="50" as="geometry" />
+          <mxGeometry x="484.5" y="321" width="265.01" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1LzykaaKOIrvUKO_Y8IM-23" value="本次测试结束，结果设为FAIL&lt;br&gt;case_set_result_and_terminate(Result.FAIL, &quot;FAIL&quot;)" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;strokeColor=#000000;strokeWidth=3;fillColor=#fff2cc;" vertex="1" parent="atYt0wW3PkCav8Yv20VC-1">
-          <mxGeometry x="848.12" y="207.5" width="310" height="55" as="geometry" />
+          <mxGeometry x="767.12" y="198.5" width="310" height="55" as="geometry" />
         </mxCell>
         <mxCell id="1LzykaaKOIrvUKO_Y8IM-26" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" source="1LzykaaKOIrvUKO_Y8IM-28" target="1LzykaaKOIrvUKO_Y8IM-33" parent="atYt0wW3PkCav8Yv20VC-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="890" y="635" as="targetPoint" />
+            <mxPoint x="809" y="626" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1LzykaaKOIrvUKO_Y8IM-27" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="1LzykaaKOIrvUKO_Y8IM-28" target="1LzykaaKOIrvUKO_Y8IM-32" parent="atYt0wW3PkCav8Yv20VC-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="707.4949999999999" y="710" as="targetPoint" />
+            <mxPoint x="626.4949999999999" y="701" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1LzykaaKOIrvUKO_Y8IM-28" value="&lt;div&gt;从断开网络时到速度变为0&lt;/div&gt;&lt;div&gt;的时间&amp;gt;=5s&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="atYt0wW3PkCav8Yv20VC-1">
-          <mxGeometry x="557.38" y="560" width="281.25" height="70" as="geometry" />
+          <mxGeometry x="476.38" y="551" width="281.25" height="70" as="geometry" />
         </mxCell>
         <mxCell id="1LzykaaKOIrvUKO_Y8IM-32" value="本次测试结束，结果设为FAIL&lt;br&gt;case_set_result_and_terminate(Result.FAIL, &quot;&lt;span&gt;brake time is too long&lt;/span&gt;&quot;)" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;strokeColor=#000000;strokeWidth=3;fillColor=#fff2cc;" vertex="1" parent="atYt0wW3PkCav8Yv20VC-1">
-          <mxGeometry x="534.88" y="700" width="326.26" height="50" as="geometry" />
+          <mxGeometry x="453.88" y="691" width="326.26" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1LzykaaKOIrvUKO_Y8IM-33" value="本次测试结束，结果设为PASS&lt;br&gt;case_set_result_and_terminate(Result.PASS)" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;strokeColor=#000000;strokeWidth=3;fillColor=#fff2cc;" vertex="1" parent="atYt0wW3PkCav8Yv20VC-1">
-          <mxGeometry x="880" y="570" width="321.56" height="50" as="geometry" />
+          <mxGeometry x="799" y="561" width="321.56" height="50" as="geometry" />
         </mxCell>
         <mxCell id="v6na-CId5B_5DVwukB9d-0" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="atYt0wW3PkCav8Yv20VC-1" source="1LzykaaKOIrvUKO_Y8IM-21" target="1LzykaaKOIrvUKO_Y8IM-21">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="859" y="455" />
-              <mxPoint x="859" y="400" />
-              <mxPoint x="698" y="400" />
+              <mxPoint x="778" y="446" />
+              <mxPoint x="778" y="391" />
+              <mxPoint x="617" y="391" />
             </Array>
           </mxGeometry>
         </mxCell>
